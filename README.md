@@ -29,7 +29,6 @@
    ![5](./Screenshots/5.png)
    ![6](./Screenshots/6.png)
    ![7](./Screenshots/7.png)
-   ![9](./Screenshots/9.png)
 
    
 ### Implementation and Game Design
