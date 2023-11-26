@@ -32,31 +32,22 @@
 #### Implementation
 ##### Scripts
     - PlaerControls: Responsible for controlling a ship's movement and rotation based on input, enabling 
-                     and disabling a set of laser guns based on player input.
+             and disabling a set of laser guns based on player input.
     
     - Enemy: It handles the enemy's hit points, visual effects upon being hit, and its destruction,
-                    including score updates when killed.
+             including score updates when killed.
                   
-    - Tower: Responsible for finding the nearest enemy and targeting them. After destroying the targeted enemy, 
-                  it selects the next nearest one.
+    - CollisionHandler: Triggers a crash sequence on collision, disabling the player's visuals and controls temporarily,
+             and reloading the level after a delay.
              
-    - EnemySpawner: Spawns enemies at fixed intervals.
+    - ScoreBoard: Manages a score system. The score increases based on the specified amount.
     
-    - EnemyMovement: Obtains the shortest path from the PathFinder and follows it.
-    
-    - EnemyDamage: Manages hit processing and destruction of enemies.
-    
-    - GameManager: Responsible for managing game states, such as running, pausing, or activating the game over 
-                   screen if the player is defeated.
-                   
-    - Cube Editor: An editor script for placing grid blocks (waypoints) only at integer coordinates, crucial for 
-                   pathfinding, as it relies on integer coordinates.
+    - MusicPlayer: Ensures a single instance of MusicPlayer, destroying extras during Awake to prevent duplication 
+             across scene changes.
 
  
  #### Game Design
-     - Designed strategic level independently using provided assets.
-     - Implemented an editor script(CubeEditor) to facilitate the placement of blocks (waypoints) with restricted 
-       integer coordinates.
+     - Designed strategic level using provided assets.
        
 #### Focus
     - Learn Unity's Terrain component to create terrain, utilize terrain tools, and apply texturing and trees.
@@ -67,8 +58,8 @@
     
 ### Gameplay Demonstration
     - For a visual demonstration of the gameplay, watch video on YouTube:
- [Youtube video link](https://youtu.be/cmyqPkxtXsE)
+ [Youtube video link](https://youtu.be/iecopYTLx58)
 
 ### Play the Game
     - To experience the game firsthand, play it directly by following this playable link:
-[Play in browser(WebGl)](https://rahul-pargi.itch.io/realm-rush)
+[Play in browser(WebGl)](https://rahul-pargi.itch.io/argon-assault)
