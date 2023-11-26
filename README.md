@@ -7,15 +7,16 @@
 ### Features
     - Intuitive and Responsive Controls:
         - Easy-to-use controls for smooth navigation and shooting.
-        - Skillfully maneuver the ship with pitch, yaw, and roll controls, ensuring responsive and precise control.
+        - Skillfully maneuver the ship with pitch, yaw, and roll controls, ensuring responsive and precise 
+          control.
         
      - Cinematic Enemy Ship Arrival:
-        - Experience cinematic moments as enemy ships elegantly enter the scene, enhanced with Unity's Cinemachine
+        - Experience cinematic moments as enemy ships elegantly enter the scene, enhanced with Unity's Timeline
           for a visually engaging gameplay experience.
           
      - Dynamic Level Design: 
-        - Well-crafted levels with dynamic environments, including enemy ships firing missiles and large enemy ships
-          incoming.
+        - Well-crafted levels with dynamic environments, including enemy ships firing missiles and large enemy 
+          ships incoming.
         - Spacious vibes and immersive sound effects to enhnace the overall atomsphere.
     
 ### Screenshots
@@ -37,8 +38,8 @@
     - Enemy: It handles the enemy's hit points, visual effects upon being hit, and its destruction,
              including score updates when killed.
                   
-    - CollisionHandler: Triggers a crash sequence on collision, disabling the player's visuals and controls temporarily,
-             and reloading the level after a delay.
+    - CollisionHandler: Triggers a crash sequence on collision, disabling the player's visuals and controls 
+             temporarily, and reloading the level after a delay.
              
     - ScoreBoard: Manages a score system. The score increases based on the specified amount.
     
