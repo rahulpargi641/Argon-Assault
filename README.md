@@ -43,8 +43,8 @@
              
     - ScoreBoard: Manages a score system. The score increases based on the specified amount.
     
-    - MusicPlayer: Ensures a single instance of MusicPlayer, destroying extras during Awake to prevent duplication 
-             across scene changes.
+    - MusicPlayer: Ensures a single instance of MusicPlayer, destroying extras during Awake to prevent
+              duplication across scene changes.
 
  
  #### Game Design
