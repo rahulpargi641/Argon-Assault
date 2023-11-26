@@ -21,12 +21,15 @@
     
 ### Screenshots
 
-   ![StartMenu](./Screenshots/MainMenu.png)
-   ![TowerShooting](./Screenshots/TowerShooting4.png)
-   ![TowerShooting](./Screenshots/TowerShooting.png)
-   ![TowerShooting2](./Screenshots/TowerShooting2.png)
-   ![EnemyDestroyed](./Screenshots/EnemyDestroyed.png)
-   ![GameOver](./Screenshots/GameOver.png)
+   ![Start](./Screenshots/Start.png)
+   ![1](./Screenshots/1.png)
+   ![2](./Screenshots/2.png)
+   ![3](./Screenshots/3.png)
+   ![4](./Screenshots/4.png)
+   ![5](./Screenshots/5.png)
+   ![6](./Screenshots/6.png)
+   ![7](./Screenshots/7.png)
+   ![9](./Screenshots/9.png)
 
    
 ### Implementation and Game Design
