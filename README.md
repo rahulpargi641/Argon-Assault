@@ -33,7 +33,7 @@
 ### Implementation and Game Design
 #### Implementation
 ##### Scripts
-    - PlaerControls: Responsible for controlling a ship's movement and rotation based on input, enabling 
+    - PlayerControls: Responsible for controlling a ship's movement and rotation based on input, enabling 
              and disabling a set of laser guns based on player input.
     
     - Enemy: It handles the enemy's hit points, visual effects upon being hit, and its destruction,
