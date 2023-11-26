@@ -1,8 +1,8 @@
 # Argon Assault
 
 ### Introduction
-    Realm Rush is a rail shooter game in which the player controls a ship that can fire laser bullets. The player 
-    guides the ship to avoid obstacles and destroy enemies by shooting them.
+    Realm Rush is a rail shooter game in which the player controls a ship that can fire laser bullets. The 
+    player guides the ship to avoid obstacles and destroy enemies by shooting them.
 
 ### Features
     - Intuitive and Responsive Controls:
@@ -14,7 +14,8 @@
           for a visually engaging gameplay experience.
           
      - Dynamic Level Design: 
-        - Well-crafted levels with dynamic environments, including enemy ships firing missiles and large enemy ships incoming.
+        - Well-crafted levels with dynamic environments, including enemy ships firing missiles and large enemy ships
+          incoming.
         - Spacious vibes and immersive sound effects to enhnace the overall atomsphere.
     
 ### Screenshots
@@ -29,11 +30,12 @@
    
 ### Implementation and Game Design
 #### Implementation
-    - PathFinder: Responsible for finding the shortest path on the grid using the breadth-first search algorithm 
-                  implemented using data sturctures like dictionary and a queue.
+##### Scripts
+    - PlaerControls: Responsible for controlling a ship's movement and rotation based on input, enabling 
+                     and disabling a set of laser guns based on player input.
     
-    - TowerFactory: Responsible for limiting the instantiation of towers to a maximum of 7 and reusing already 
-                  spawned towers for performance using the queue.
+    - Enemy: It handles the enemy's hit points, visual effects upon being hit, and its destruction,
+                    including score updates when killed.
                   
     - Tower: Responsible for finding the nearest enemy and targeting them. After destroying the targeted enemy, 
                   it selects the next nearest one.
