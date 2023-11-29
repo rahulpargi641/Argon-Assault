@@ -1,8 +1,8 @@
 # Argon Assault
 
 ### Introduction
-    Realm Rush is a rail shooter game in which the player controls a ship that can fire laser bullets. The 
-    player guides the ship to avoid obstacles and destroy enemies by shooting them.
+    A space shooter game where the player controls a ship to defend Earth against alien invaders. The player
+    must shoot down alien ships with laser bullets to prevent them from harming humanity.
 
 ### Features
     - Intuitive and Responsive Controls:
